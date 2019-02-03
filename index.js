@@ -3,6 +3,10 @@ function takeANumber (parameter1, parameter2) {
   return "Welcome, "+parameter2+". You are number "+parameter1.length+" in line.";
 }
 
+function nowServing(katzDeliLine) {
+  if (katzDeliLine.length === 0)
+}
+
 function currentLine (katzDeliLine) {
   if (katzDeliLine.length === 0) {
     return "The line is currently empty.";
