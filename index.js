@@ -8,8 +8,11 @@ function nowServing (katzDeliLine) {
     return "The line is currently empty.";
   }
   else {
+    var line = ""
     for (i = 0, len = katzDelLine.length; i < len; i++) {
-      if (i === len-2)
+      if (i === len-2) {
+        return line+i.String()
+      }
     }
   }
 }
