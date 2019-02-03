@@ -8,8 +8,8 @@ function nowServing (katzDeliLine) {
     return "The line is currently empty.";
   }
   else {
-    for (i = 0; len = katzDelLine.length; i < len; i++) {
-      
+    for (i = 0, len = katzDelLine.length; i < len; i++) {
+      if ()
     }
   }
 }
