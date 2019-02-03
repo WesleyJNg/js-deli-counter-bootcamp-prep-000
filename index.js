@@ -9,7 +9,7 @@ function currentLine (katzDeliLine) {
   }
   else {
     var line = ""
-    for (i = 0, len = katzDeliLine.length; i < len; i++) {
+    for (var i = 0, len = katzDeliLine.length; i < len; i++) {
       if (i === len-2) {
         return line+String(i+1)+'. '+String(katzDeliLine[i]);
       }
