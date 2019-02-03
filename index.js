@@ -4,7 +4,9 @@ function takeANumber (parameter1, parameter2) {
 }
 
 function nowServing(katzDeliLine) {
-  if (katzDeliLine.length === 0)
+  if (katzDeliLine.length === 0) {
+    
+  }
 }
 
 function currentLine (katzDeliLine) {
@@ -12,7 +14,7 @@ function currentLine (katzDeliLine) {
     return "The line is currently empty.";
   }
   else {
-    var line = "The line is currently: "
+    var line = "The line is currently: ";
     for (var i = 0, len = katzDeliLine.length; i < len; i++) {
       if (i === len-1) {
         return line+String(i+1)+'. '+String(katzDeliLine[i]);
