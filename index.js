@@ -11,7 +11,7 @@ function nowServing (katzDeliLine) {
     var line = ""
     for (i = 0, len = katzDelLine.length; i < len; i++) {
       if (i === len-2) {
-        return line+String(i)
+        return line+String(i+1)+'. '+
       }
     }
   }
