@@ -9,7 +9,7 @@ function nowServing (katzDeliLine) {
   }
   else {
     for (i = 0, len = katzDelLine.length; i < len; i++) {
-      if (i === len)
+      if (i === len-2)
     }
   }
 }
