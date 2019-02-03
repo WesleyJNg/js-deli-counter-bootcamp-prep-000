@@ -4,5 +4,5 @@ function takeANumber (parameter1, parameter2) {
 }
 
 function nowServing (katzDeliLine) {
-  
+  if (katzDelLine === 0)
 }
