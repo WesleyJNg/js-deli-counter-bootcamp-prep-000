@@ -9,9 +9,12 @@ function nowServing (katzDeliLine) {
   }
   else {
     var line = ""
-    for (i = 0, len = katzDelLine.length; i < len; i++) {
+    for (i = 0, len = katzDeliLine.length; i < len; i++) {
       if (i === len-2) {
-        return line+String(i+1)+'. '+
+        return line+String(i+1)+'. '+String(katzDeliLine[i]);
+      }
+      else {
+        line = line + String(i+1) + '. '+String(katzDeliLine[i])+', ';
       }
     }
   }
